@@ -1,11 +1,11 @@
-Ejercicio Técnico: Cliente y Servidor TCP en Python
-Detalles del Ejercicio
-1. Servidor TCP:
-○ El servidor debe iniciar en localhost y escuchar conexiones en el puerto
-5000.
-○ Una vez que el cliente se conecte, el servidor debe esperar a recibir un
-mensaje del cliente.
-○ Si el servidor recibe el mensaje "DESCONEXION", debe:
+#Ejercicio Técnico: Cliente y Servidor TCP en Python
+
+
+##Detalles del Ejercicio
+###1. Servidor TCP:
+ ##El servidor debe iniciar en localhost y escuchar conexiones en el puerto 5000.
+ ###Una vez que el cliente se conecte, el servidor debe esperar a recibir un mensaje del cliente.
+###Si el servidor recibe el mensaje "DESCONEXION", debe:
 ■ Cerrar la conexión con ese cliente.
 ■ Mantenerse disponible para recibir conexiones de nuevos clientes.
 ○ Para cualquier otro mensaje recibido, el servidor debe responder al cliente
